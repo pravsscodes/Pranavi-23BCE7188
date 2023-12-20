@@ -1,0 +1,36 @@
+print("Hey there!")
+a = input() 
+print("Let's have a chat!!")
+b = input()
+name = input("What is your name?")
+if 'okay' in b:
+  print(name,'So, how was your day?')
+elif 'no' in b:
+  print('Why not?',name)
+elif 'maybe' in b:
+  print(name,'How did your day go?')
+else:
+  print("Sorry, I don't get you")
+c = input()
+if 'great' in c:
+  print('Glad it turned out well! Tell me more about today...')
+elif 'good' in c:
+  print("That's nice! Tell me more about your day...")
+elif 'okay' in c:
+  print("Seems like it didn't go as expected...you can talk to me...")
+elif 'bad' in c:
+  print("I'm sorry to hear that! What went wrong you can talk it out with me...")
+elif 'worst' in c:
+  print("I'm sorry about that! There are few bad days in life but we need to move ahead. Don't worry it will be fine tommorow. You can talk to me about how ur day was...")
+else:
+  print("Sorry, I don't get you")
+print("Glad to hear you tell about your day!")
+e = input("Do you need anymore assistance?",name)
+if "no" in e:
+  print("Okay!! Thanks for your time!",name, "Byee")
+elif "yes" in e:
+  print("Please tell me how I can help you")
+else:
+  print("Sorry, I don't get you")
+f = input()
+print("The help asked is beyond my reach! Thank you for the time",name, "Byee!!!")
